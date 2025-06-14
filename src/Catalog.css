@@ -1,0 +1,28 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'
+);
+
+
+
+.catalog .caption {
+    font-size: 24px;
+}
+
+.caption {
+    padding-left: 60px;
+}
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
