@@ -9,12 +9,13 @@
 }
 
 .caption {
-    padding-left: 60px;
+    padding-left: 120px;
 }
 
 .catalog {
     display: flex;
     flex-direction: column;
+    font-weight: 600;
     /*flex-wrap: wrap;*/
 }
 
@@ -25,4 +26,11 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
+}
+
+.catalog-card {
+    width: 183px;
+    height: 204px;
+    text-align: center;
+    font-size: 14px;
 }

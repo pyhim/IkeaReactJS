@@ -1,10 +1,16 @@
 import "./Catalog.css"
 
 export function Card(props) {
+  let title = "default";
+
+  if (props.title !== undefined) {
+    title = props.title;
+  }
+
   return (
     <div className="catalog-card">
       <img src={props.img} alt="Furniture Image"/>
-      <p>Name of the set</p>
+      <p>{title}</p>
     </div>
   );
 }
