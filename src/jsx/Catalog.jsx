@@ -1,4 +1,4 @@
-import "./Catalog.css"
+import "../styles/Catalog.css"
 
 export function Card(props) {
   let title = "default";
