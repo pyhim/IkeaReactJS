@@ -20,7 +20,6 @@ function App() {
           <Carousel id="goodsCarousel" cards={cards}></Carousel>
         </section>
       </div>
-      <script type="application/javascript" src="/src/js/createCarousel.js"></script>
     </>
   )
 }
