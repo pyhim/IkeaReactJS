@@ -16,6 +16,7 @@ function App() {
     <>
       <div id="root-container" className="container">
         <section id="goods">
+          <p className="section-header">Goods</p>
           <Carousel id="goodsCarousel" cards={cards}></Carousel>
         </section>
       </div>
