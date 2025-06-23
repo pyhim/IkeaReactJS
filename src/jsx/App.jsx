@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div className="container">
+      <div id="root-container" className="container">
         <section id="goods">
           <Carousel id="goodsCarousel" cards={cards}></Carousel>
         </section>
