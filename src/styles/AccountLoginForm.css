@@ -1,0 +1,80 @@
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+#img-panel p {
+  top: 30%;
+  left: 12.5%;
+}
+
+img#arrowBack {
+  top: 4%;
+  left: 7%;
+}
+
+form#accountLoginForm {
+  margin: 150px 150px;
+  max-width: 428px;
+}
+
+form label {
+  font-weight: 500;
+  padding-bottom: 3px;
+}
+
+form input {
+  height: 50px;
+  border: 1px solid #646464 !important;
+  border-radius: 5px !important;
+}
+
+form p {
+  color: #646464;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.form-element {
+  padding-bottom: 3rem !important;
+}
+
+img#showPassword {
+  right: 3%;
+}
+
+p#forgotPassword {
+  font-size: 14px;
+}
+
+input#saveInfoCheckbox {
+  width: 24px;
+  height: 24px;
+}
+
+img#infoIcon {
+  margin-left: auto;
+  margin-right: 0.8rem;
+}
+
+.gray {
+  color: #646464 !important;
+}
+
+.fs-14px {
+  font-size: 14px !important;
+}
+
+.fs-32px {
+  font-size: 32px !important;
+}
+
+a.btn {
+  font-size: 14px !important;
+  height: 50px;
+  padding: 10px;
+  border-radius: 30px;
+  line-height: 28px;
+}
+
+/*# sourceMappingURL=AccountLoginForm.css.map */
