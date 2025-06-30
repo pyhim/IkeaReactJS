@@ -3,6 +3,7 @@ import {Catalog} from "./Catalog.jsx";
 import {Carousel} from "./CardCarousel.jsx";
 import * as bootstrap from "bootstrap";
 import {AccountLoginForm} from "./AccountLoginForm.jsx";
+import {AccountFormModal} from "./AccountFormModal.jsx";
 
 function App() {
   // let cards = [
@@ -21,7 +22,8 @@ function App() {
         {/*  <Carousel id="goodsCarousel" cards={cards}></Carousel>*/}
         {/*</section>*/}
         <section id="login">
-          <AccountLoginForm></AccountLoginForm>
+          {/*<AccountLoginForm></AccountLoginForm>*/}
+          <AccountFormModal></AccountFormModal>
         </section>
       </div>
     </>
