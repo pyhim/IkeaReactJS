@@ -4,6 +4,7 @@ import {Carousel} from "./CardCarousel.jsx";
 import * as bootstrap from "bootstrap";
 import {AccountLoginForm} from "./AccountLoginForm.jsx";
 import {AccountFormModal} from "./AccountFormModal.jsx";
+import {Weather} from "./weather.jsx";
 
 function App() {
   // let cards = [
@@ -21,10 +22,10 @@ function App() {
         {/*  <p className="section-header">Goods</p>*/}
         {/*  <Carousel id="goodsCarousel" cards={cards}></Carousel>*/}
         {/*</section>*/}
-        <section id="login">
-          {/*<AccountLoginForm></AccountLoginForm>*/}
-          <AccountFormModal></AccountFormModal>
-        </section>
+        {/*<section id="login">*/}
+        {/*  <AccountFormModal></AccountFormModal>*/}
+        {/*</section>*/}
+        <Weather/>
       </div>
     </>
   )
